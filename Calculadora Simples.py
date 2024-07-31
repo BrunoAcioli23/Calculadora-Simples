@@ -32,13 +32,13 @@ while True:
     sleep(1)
         
     if operador == '+':
-        print(num_1_float + num_2_float)
+        print(f'{num_1_float} + {num_2_float}=', num_1_float + num_2_float)
     elif operador == '-':
-        print(num_1_float - num_2_float)
+        print(f'{num_1_float}-{num_2_float}=', num_1_float - num_2_float)
     elif operador == '/':
-        print(num_1_float / num_2_float)
+        print(f'{num_1_float}/{num_2_float}=', num_1_float / num_2_float)
     elif operador == '*':
-        print(num_1_float * num_2_float)
+        print(f'{num_1_float}*{num_2_float}=', num_1_float * num_2_float)
     else:
         print('Nunca deveria chegar aqui.')
         
