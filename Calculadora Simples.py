@@ -42,7 +42,7 @@ while True:
     else:
         print('Nunca deveria chegar aqui.')
         
-    sair = input('Deseja sair? sair? [s]im: ').lower().startswith('s')
+    sair = input('Deseja sair? [s]im: ').lower().startswith('s')
     
     if sair is True:
         break
